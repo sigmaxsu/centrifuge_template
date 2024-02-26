@@ -1,0 +1,12 @@
+Name,Value,Path,Source,Building Date,Description
+Index,nif2012,,,,
+Is barcode coding serial?,No,,,,"""Yes"", if barcode is serial; ""No"", if barcode is not serial."
+barcode from,31,,,,"barcode number beginning from, if barcode is serial."
+barcode to ,34,,,,"barcode number ending to, if barcode is serial."
+barcode reference file,barcode.txt,./,,,barcode reference file if barcode is not serial.
+-----,-----,-----,-----,,
+ITS,ITS722697,/home/DATA_NAS/JiaYang/Centrifuge/20230613/,NCBI Nucleotide,<2023-06-14>,"722,697 sequences; ((((((internal transcribed spacer 1, 5.8S ribosomal RNA, and internal transcribed spacer 2)) AND fungi[Organism]) NOT UNVERIFIED) NOT cf.) NOT whole genome) NOT uncultured fungi"
+16S,16S1M,/home/DATA_NAS/JiaYang/Centrifuge/20230529/,NCBI Nucleotide,<2023-06-06>,"1,216,623 sequences; (((((((((((((16S ribosomal RNA) AND bacteria[Organism])) NOT UNVERIFIED) NOT cf.) NOT genome) NOT plasmid)) NOT TLS:)) NOT uncultured bacteria)) NOT eukaryotes) whose size between 1-1600 bp."
+nt,nt,/home/jiayang/projects/MINDS/centrifuge_db/nt_2018_3_3/,Centrifuge official site,<2018-03-03>,"https://ccb.jhu.edu/software/centrifuge/manual.shtml NCBI BLAST's nt database contains all spliced non-redundant coding sequences from multiplpe databases, inferred from genommic sequences. Traditionally used with BLAST, a download of the FASTA is provided on the NCBI homepage. Building an index with any database requires the user to creates a sequence ID to taxonomy ID map that can be generated from a GI taxid dump:"
+nifH,nifH11573,/home/jiayang/Centrifuge/nifH_20231115/,NCBI Nucleotide,<2023-11-20>,"11,573 sequences; (((((((nifH[All Fields] NOT UNVERIFIED[All Fields]) NOT cf.[All Fields]) NOT (""unidentified plasmid""[Organism] OR plasmid[All Fields])) NOT TLS[All Fields]) NOT (uncultured[All Fields] AND (""Bacteria""[Organism] OR ""Bacteria Latreille et al. 1825""[Organism] OR bacteria[All Fields]))) NOT (uncultured[All Fields] AND (""Fungi""[Organism] OR fungi[All Fields]))) NOT genome[All Fields]) NOT genomic[All Fields] AND bacteria[filter]"
+nif2012,nifH32954_2012,/home/DATA_NAS/JiaYang/Centrifuge/nifH_2012,"Buckley Lab, Cornell University",<2024-02-21>,"2012, nifH32954-343, download from https://blogs.cornell.edu/buckley/nifh-sequence-database/"
